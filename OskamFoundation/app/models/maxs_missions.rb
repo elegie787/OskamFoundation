@@ -1,0 +1,2 @@
+class MaxsMissions < ApplicationRecord
+end
