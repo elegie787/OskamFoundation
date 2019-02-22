@@ -15,7 +15,7 @@
  */
 
  html {
-     background-image: url("HeartCloud.jpg");
+      background-image: url("HeartCloud.jpg") !important; 
      background-color: #223d64; 
      background-repeat: no-repeat; /* Do not repeat the image */
      background-size: cover; 
@@ -23,4 +23,8 @@
 
  body {
     background-color: #223d64; 
+ }
+
+ th{
+     color: white !important;
  }

@@ -7,9 +7,9 @@ Rails.application.routes.draw do
   get 'make_a_difference', to: 'make_a_difference#index'
   get 'make_a_donation', to: 'make_a_donation#index'
   get 'market', to: 'market#index'
-  get 'milestone', to: 'milestone#index'
+  get 'milestones', to: 'milestones#index'
   root 'index#index'
-  
+
   match '/ping', to: 'ping#ping', via: :all
   match '/sping', to: 'ping#ping', via: :all
 end
